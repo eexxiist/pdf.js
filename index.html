@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.min.js"
+    ></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf_viewer.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <input
+      type="button"
+      id="btn_preview"
+      value="Preview PDF document"
+      onclick="LoadPdfFromURL(`./pdf/naira.pdf`)"
+    />
+
+    <hr />
+
+    <div class="pdf_wrapper">
+      <div id="pdf_container"></div>
+    </div>
+
+    <!-- <div class="photo_container">
+
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuG1HGNswuTdkSNRlhtr5LRHWwZ4WP7-vPO5agmmoJ4w&s" alt="photo_holder">
+
+      <button onclick="showLake(event)" class="btn_huge lake" id="btn_lake" data-visible="false"></button>
+
+      <button onclick="showLake_2(event)" class="btn_huge lake_2" id="btn_lake_2" data-visible="false"></button>
+
+      <button onclick="showLake_3(event)" class="btn_huge lake_3" id="btn_lake_3" data-visible="false"></button>
+    </div> -->
+  </body>
+</html>
+
+<!-- https://drive.google.com/ -->
